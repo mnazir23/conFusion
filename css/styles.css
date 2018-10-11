@@ -18,15 +18,20 @@
 }
 
 .footer{
-    background-color: #dfdf4d;
+    background-color: #512DA8;
+    color: floralwhite;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 .jumbotron {
     padding:70px 30px 70px 30px;
+    background-image: url(../spice_spoons_detail.jpg);
+    background-position: 0% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin:0px auto;
-    background: #9575CD ;
     color:floralwhite;
 }
 
@@ -34,4 +39,13 @@
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
 }
