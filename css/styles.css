@@ -59,3 +59,16 @@ a:link {
 a:hover {
     color: orangered;
 }
+
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img-thumbnail {
+    height: 200px;
+    width: 150px;
+}
