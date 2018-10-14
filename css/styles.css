@@ -72,3 +72,8 @@ a:hover {
     height: 200px;
     width: 150px;
 }
+
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 5px; 
+  }
