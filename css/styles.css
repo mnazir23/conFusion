@@ -1,79 +1,85 @@
-.row-header{
-    margin:0px auto;
-    padding:0px;
-}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
 
 .row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    border-top: 1px ridge;
-    min-height:200px;
-}
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
 
-.row-content-v2 {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    min-height:100px;
-}
-
-.footer{
-    background-color: #512DA8;
-    color: floralwhite;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
-}
+.footer {
+  background-color: #512DA8;
+  color: floralwhite;
+  margin: 0px auto;
+  margin: 0px auto;
+  padding: 20px 0px; }
 
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    background-image: url(../spice_spoons_detail.jpg);
-    background-position: 0% 40%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin:0px auto;
-    color:floralwhite;
-}
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-image: url(../spice_spoons_detail.jpg);
+  background-position: 0% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px auto;
+  color: floralwhite; }
 
-.address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
-}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
 
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
-}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
 
 .navbar-dark {
-     background-color: #512DA8;
-}
+  background-color: #512DA8; }
 
-/* unvisited link */
-a:link {
-    color: white;
-}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
 
-/* mouse over link */
-a:hover {
-    color: orangered;
-}
+.carousel {
+  background: #512DA8; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      display: block;
+      max-width: 300px;
+      height: 300px; }
 
-.rounded-circle {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px; }
+
+.btn-smoking {
+  background-color: #f83333;
+  color: white; }
+
+.btn-smoking.active {
+  background-color: #930E0A; }
+
+.btn-nonsmoking {
+  background-color: #177529;
+  color: white; }
+
+.btn-nonsmoking.active {
+  background-color: #0E4915; }
+
+.modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+
+.modal-body {
+  background-color: #D1C4E9; }
 
 .img-thumbnail {
-    height: 200px;
-    width: 150px;
-}
-
-input[type="radio"] {
-    margin-right: 5px;
-    margin-left: 5px; 
-  }
+  height: 200px;
+  width: 150px; }
