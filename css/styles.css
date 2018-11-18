@@ -5,8 +5,17 @@
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px; }
+  border-top: 1px ridge;
+  min-height: 200px; }
+
+.row-content-v2 {
+  margin: 0px auto;
+  margin: 0px auto;
+  padding: 50px 0px;
+  min-height: 100px; }
 
 .footer {
   background-color: #512DA8;
@@ -29,7 +38,7 @@
 address {
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f; }
+  color: #ffffff; }
 
 body {
   padding: 50px 0px 0px 0px;
@@ -43,6 +52,18 @@ body {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px; }
+
+/* unvisited link */
+a:link {
+  color: white; }
+
+/* mouse over link */
+a:hover {
+  color: orangered; }
+
+input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 5px; }
 
 .carousel {
   background: #512DA8; }
