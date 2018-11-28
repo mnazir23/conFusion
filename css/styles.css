@@ -27,7 +27,7 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background-image: url(../spice_spoons_detail.jpg);
+  background-image: url(../img/spice_spoons_detail.jpg);
   background-position: 0% 40%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,6 +39,11 @@ address {
   font-size: 80%;
   margin: 0px;
   color: #ffffff; }
+
+.address-black {
+  font-size: 80%;
+  margin: 0px;
+  color: #000000; }
 
 body {
   padding: 50px 0px 0px 0px;
